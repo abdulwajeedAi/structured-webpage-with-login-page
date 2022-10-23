@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login/signUP page</title>
+</head>
+<body>
+    <h2 class="login1">Login here</h2>
+    <form action="backend.php" class="login2">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="myName" id="name" required>
+        </div>
+        <br>
+        <div>
+            <label for="birth">Date of Birth:</label>
+            <input type="date" name="myDate" id="birth" required>
+        </div>
+        <br>
+        <fieldset>
+            <legend class="widthset">Gender</legend>
+
+            <label for="male">Male:</label>
+            <input type="radio" name="myGender" id="male">
+            <br>
+            <br>
+            <label for="female">Female:</label>
+            <input type="radio" name="myGender" id="female">
+        </fieldset>
+        
+    
+            
+        <br>
+        <div>
+            <label for="country">Select your country</label>
+            <select name="country" id="country" required>
+                <option value="countryselection">--Select your country--</option>
+                <option value="india">India</option>
+                <option value="usa">USA(United States of America)</option>
+                <option value="uk">United Kingdome</option>
+                <option value="china">China</option>
+                <option value="japan">Japan</option>
+                <option value="uae">UAE(United Arab Emirates) </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email: *</label>
+            <input type="email" name="myEmail" id="email" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="password">Password: *</label>
+            <input type="password" name="myPassword" id="password" required>
+        </div>
+        <br>
+        <div >
+            <label for="robot">Are you Robot</label>
+            <input type="checkbox" id="robot" name="myCheck" required class="robot">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset this login page" required>
+        </div>
+    </form>
+</body>
+</html>

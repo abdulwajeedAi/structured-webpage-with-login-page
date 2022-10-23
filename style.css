@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+
+}
+
+h1 {
+    color: white;
+    background-color: rgb(9, 178, 184);
+    text-align: center;
+    height: 92px;
+    padding-top: 50px;
+}
+
+.navBar {
+    display: flex;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 15px;
+}
+
+.fontFamily {
+
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    font-size: 30px;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: grey;
+
+}
+
+.inline {
+    display: flex;
+}
+
+.paddingup {
+    padding-top: 20px;
+}
+
+body {
+    background-color: rgb(214, 205, 205);
+}
+.fontFamily2{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: grey;
+
+
+}
+.padding{
+    padding: 5px 0px 20px 20px;
+}
+.paddingtop{
+    padding-left: 120px;
+}
+
+.paddingLeft{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.footer{
+    list-style: none;
+    display: flex;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.login1 {
+      
+    font-size: 50px;
+    text-align: center;
+}
+
+.login2 {
+    font-size: 40px;
+    padding-left: 800px;
+  
+
+}
+
+body {
+    background-image: url(/image1.jpg);
+}
+
+input {
+    height: 30px;
+
+}
+#robot{
+   height: 30px;
+   height: 30px;
+   width: 30px;
+}
+#male, #female{
+   
+   
+   height: 30px;
+   width: 30px;
+}
+fieldset{
+  width: 500px;
+}
+ 
